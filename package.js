@@ -1,10 +1,11 @@
 Package.describe({
     summary: 'A Meteor.js / Blaze integration for bootstrap-tour',
-    version: '1.0.2'
+    version: '1.1.0',
+    name: 'flowkey:bootstrap-tour',
+    git: 'https://github.com/nerdmed/bootstrap-tour.git'
 });
 
 Package.onUse(function(api) {
-    api.versionsFrom('METEOR@0.9.1.1');
     api.use(['jquery', 'templating'], 'client');
 
     // add dependency for bootstrap3
